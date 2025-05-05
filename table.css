@@ -1,0 +1,48 @@
+body{
+    background-color: aquamarine;
+}
+p{
+    font-size: 60px;
+    background-color: antiquewhite;
+    color: blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+table{
+    font-size: 26px;
+    border: 5px double blue;
+    width: 60%;
+    border-collapse: separate;
+    margin: auto;
+}
+th, td{
+    border: 2px solid blueviolet ;
+    width: 26%;
+    height: 2cm;
+}
+tr:hover{
+    background-color: lightblue;
+}
+td:hover{
+    background-image: url(https://i.pinimg.com/originals/e6/73/90/e67390f0bc55cc70c543acb3a9b9f5ba.gif);
+    font-weight: bold;
+    text-align: center;
+    color: turquoise;
+    text-transform: uppercase;
+    font-size: 1.1cm;
+}
+tr:nth-child(even){
+    background-color: blueviolet;
+}
+tr:nth-child(odd){
+    background-color:skyblue;
+}
+.special{
+    border: 3px dashed red;
+    vertical-align: bottom;
+}
+caption{
+    background:linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    font-size: 37px;
+    text-transform: uppercase;
+}
